@@ -40,4 +40,5 @@ describe("Token contract", function () {
  * To do this we're using Chai, which is a popular Javascript assertion library
  * These asserting functions are called "matchers", and the ones we're using here comme from the @nomicfoundation/hardhat-chai-matchers plugin,
  * which extends Chai with many matchers useful to test smart contracts
+ * 
  */
