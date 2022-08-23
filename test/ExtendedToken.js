@@ -3,7 +3,7 @@
 
 // Hardhat tests are normally written with Mocha and Chai
 
-// We import Chai to use its assertig functions here
+// We import Chai to use its asserting functions here
 const { expect } = require("chai");
 
 // We use 'loadFixture' to share common setups (or fixtures) between tests
@@ -52,7 +52,7 @@ describe("Token contract", function () {
             // 'expect' receives a value and wraps it in an assertion abject.  
             // These objects have a lot of utility methods to assert values.
 
-            // This test expects the owner varuable stored in the contract to be
+            // This test expects the owner variable stored in the contract to be
             // equal to our Signer's owner.
             expect(await hardhatToken.owner()).to.equal(owner.address);
         });

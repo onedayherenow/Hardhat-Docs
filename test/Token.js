@@ -35,10 +35,10 @@ describe("Token contract", function () {
  * Once the contract is deployed, we can call our contract methods on hardhatToken
  * Here we get the balance of the owner account by calling the contract's balanceOf() method
  * 
- * Here we're again using out Contract instance to call a smart contract function in our Solidity code
+ * Here we're again using our Contract instance to call a smart contract function in our Solidity code
  * totalSupply() returns the token's supply ammount and we're checking that it's equal to ownerBalance as it should be
  * To do this we're using Chai, which is a popular Javascript assertion library
- * These asserting functions are called "matchers", and the ones we're using here comme from the @nomicfoundation/hardhat-chai-matchers plugin,
+ * These asserting functions are called "matchers", and the ones we're using here come from the @nomicfoundation/hardhat-chai-matchers plugin,
  * which extends Chai with many matchers useful to test smart contracts
  * 
  */
